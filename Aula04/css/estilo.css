@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Luckiest+Guy&display=swap');
+
+/**********************************
+Seletores de elementos, exemplos:
+ - body;
+ - h1;
+ - h2;
+ - img;
+***********************************/
+body {
+    color: greenyellow;
+    background-color: black;
+    text-shadow: 2px 2px 5px whitesmoke;
+}
+
+h1 {
+    color: floralwhite;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 400%;
+    text-shadow: 2px 2px 5px yellow;
+    text-align: center;
+}
+
+/*Seletor h2*/
+h2 { /*Propriedades do h2*/
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
+    text-align: center;
+}
+
+/*Classe usa-se o PONTO*/
+img.logo {
+    height: 200px;
+    width: 200px;   
+    margin-left: 100px;
+    border-radius: 20px;
+ }
+
+
+img.logo:hover {
+    box-shadow: 5px 5px 10px white;
+}
+
+/*Seletor de Identificador*/
+img#imgprincipal {
+    display: block;
+    margin:0 auto;
+}
+
+ 
+strong.vermelho {
+    color: red;
+ }
+ 
+
+/*p descendente de container*/
+.container p {
+    color:lightslategrey;
+    font-size:small;
+    font-style: italic;
+    text-shadow: none;
+}
+.container{
+    background-color: lightcyan;           
+    width: 640px;
+    /*Centralizando o container*/
+    display: block;
+    margin: 0 auto;
+    border:5px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 20px chartreuse;
+    line-height: 20px;
+}
+
+
