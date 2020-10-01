@@ -1,0 +1,15 @@
+.wrapper { 
+    display: grid; 
+    grid-template-columns: 100px 100px 100px; 
+    grid-gap: 10px; 
+    background-color:white; 
+    color: black; 
+  } 
+  
+  .box { 
+    background-color: black; 
+    color: white; 
+    border-radius: 5px; 
+    padding: 20px; 
+    font-size: 150%; 
+  }
